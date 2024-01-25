@@ -1,12 +1,18 @@
-// archivo.h - Declaración de una Clase
+// archivo.h - Declaración de una Clase"
 
 class Punto {
 private:
     int x, y;
 
 public:
-    Punto(int _x, int _y);  // Constructor 1
-    Punto();                // Constructor 2
+    Punto(int _x, int _y) {  //Constructor 1
+        x = _x;
+        y = _y;
+    }
+
+    Punto() {  // Constructor 2
+        x = y = 0;
+    }                
 
     void setX(int valorX);  // Establecer el valor de X
     void setY(int valorY);  // Establecer el valor de Y

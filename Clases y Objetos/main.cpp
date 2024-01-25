@@ -1,34 +1,13 @@
-// Punto.cpp - Implementación de Métodos
-
+#include<iostream>
 #include "Punto.h"
 
-// Constructor 1
-Punto::Punto(int _x, int _y) {
-    x = _x;
-    y = _y;
-}
+using namespace std;
 
-// Constructor 2
-Punto::Punto() {
-    x = y = 0;
-}
+int main(int argc, char** argv){
+    Punto p1(2,1);  //Creación de un objeto estático
+    
+    cout<<"El valor de X es ahora: "<<p1.getX()<<endl;
+    cout<<"El valor de Y es ahora: "<<p1.getY()<<endl;
 
-// Establecer el valor de X
-void Punto::setX(int valorX) {
-    x = valorX;
-}
-
-// Establecer el valor de Y
-void Punto::setY(int valorY) {
-    y = valorY;
-}
-
-// Obtener el valor de X
-int Punto::getX() {
-    return x;
-}
-
-// Obtener el valor de Y
-int Punto::getY() {
-    return y;
+    return 0;
 }
