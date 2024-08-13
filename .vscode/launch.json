@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Documentos/4. Temporal/C++/18_POO_ClasesYObjetos/Clases y Objetos",
-      "program": "d:/Documentos/4. Temporal/C++/18_POO_ClasesYObjetos/Clases y Objetos/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
